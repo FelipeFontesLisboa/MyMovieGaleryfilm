@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista De filmes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="shortcut icon"
+    href="./assets/favicon.png"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="../src/dist/notie.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+</head>
+<body>
+    <header>
+        <h2><i class="bi bi-film"></i>MyMovies</h2>
+        <section id="search-container">
+            <div class="input-wrapper movie-name-wrapper">
+                <label for="movie-name">Nome:</label>
+                <input type="search" id="movie-name" />
+            </div>
+            <div class="input-wrapper movie-year-wrapper">
+                <label for="movie-name">Ano:</label>
+                <input type="search" id="movie-year" />
+            </div>
+            <button id="search-button"><i class="bi bi-search"></i></button>
+        </section>
+    </header>
+
+    <main>
+        <h1>Comece agora a sua lista de filmes.</h1>
+        <h3> Basta Pesquisar Pelo Nome sugerido em ingles e se preferir insira o ano de lancamento. <br>
+            Sinta-se a vontade para armazena-los aqui,  São centenas de filmes.
+           <H2>Exemple:</H2>
+           <p>The Godfather:  O Poderoso Chefão <br>
+            The Green Mile - 1999:  À Espera de um Milagre <br>
+            Charlie's Angels - 2000: As Panteras <br>
+            Breakfast at Tiffany's: Bonequinha de Luxo <br>
+            Scary Movie - 2000:  Todo Mundo Em Panico
+
+           </p>
+           
+        </h3>
+        <section id="movie-list">
+
+            <!-- <article>
+                <img src="https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg" alt="Poster do filme">
+                <button class="remove-button"><i class="bi bi-trash"></i>Remover</button>
+            </article> -->
+
+        </section>
+
+        <article id="modal-overlay" class="overlay">
+            <section id="modal-background"></section>
+            <section id="modal-container">
+                <!-- <h2 id="movie-title">Guardians of the Galaxy -2014</h2>
+                <section id="modal-body">
+                    <img
+                    id="movie-poster"
+                     src="https://m.media-amazon.com/images/M/MV5BNDIzMTk4NDYtMjg5OS00ZGI0LWJhZDYtMzdmZGY1YWU5ZGNkXkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_SX300.jpg"
+                        alt="Poster Do Filme" />
+                    <div id="move-info">
+                        <h3 id="movie-plot">
+                            "A group of intergalactic criminals must pull together to stop a
+                            fanatical warrior with plans to purge the universe.",
+                        </h3>
+                        <div id="movie-cast">
+                            <h4>Elenco</h4>
+                            <h5>"Chris Pratt, Vin Diesel, Bradley Cooper"</h5>
+                        </div>
+                        <div id="movie-genere">
+                            <h4>Genero</h4>
+                            <h5>"Action, Adventure, Comedy"</h5>
+                        </div>
+                    </div>
+                </section>
+                <section id="modal-footer">
+                    <button id="add-to-list">Adicionar a lista</button> 
+                </section> -->
+            </section>
+        </article>
+    </main>
+<script src="./script.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./key.js"></script>
+    <script src="../src/dist/notie.min.js"></script>
+</body>
+
+</html>
