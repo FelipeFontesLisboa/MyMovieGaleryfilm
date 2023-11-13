@@ -9,9 +9,9 @@ let movieList = JSON.parse(localStorage.getItem("movieList")) ?? [];
 
 async function searcButtonEventClick() {
   try {
-    let url = `http://www.omdbapi.com/?apikey=f46ed398&t=${movieNameParameterGenerator()}&y=${movieNameParameterGenerator()}`; // parametro api (&t - &y)
+    //let url = `http://www.omdbapi.com/?apikey=f46ed398&t=${movieNameParameterGenerator()}&y=${movieNameParameterGenerator()}`; // parametro api (&t - &y)
 
-    const response = await fetch(url);
+    const response = await fetch(`http://www.omdbapi.com/?apikey=f46ed398&t=${movieNameParameterGenerator()}&y=${movieNameParameterGenerator()}`);
     const data = await response.json();
     console.log("data", data);
     if (data.Error) {
