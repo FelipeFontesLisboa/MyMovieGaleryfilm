@@ -1,8 +1,8 @@
 # MyMovieGaleryfilm
-   Projeto prático com HTML | CSS | JavaScript | consumindo API Movie Galery e Firmworks Alert NotieJ |
-   - Esse projeto é Baseado em uma galeria de filmes - COMO USAR?  
-   - Basta Pesquisar Pelo Nome sugerido em ingles e se preferir insira o ano de lancamento.
-   - sinta-se a vontade para armazena-los aqui, São centenas de filmes.
+   - Practical project with HTML | CSS | JavaScript | consuming API Movie Galery and Firmworks Alert NotieJ |
+   - This project is based on a movie gallery - HOW TO USE IT?
+   - Just search for the suggested name in English and if you prefer, enter the year of release.
+   - feel free to store them here, there are hundreds of movies.
 
    - LINK
    - https://felipefonteslisboa.github.io/MyMovieGaleryfilm/
